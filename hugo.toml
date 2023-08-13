@@ -1,0 +1,17 @@
+baseURL = 'http://example.org/'
+languageCode = 'en'
+title = 'Siddhartha Kommu'
+theme = 'hugo-theme-red-rose'
+PygmentsCodeFences = true
+PygmentsStyle = "solarized-dark256"
+pluralizelisttitles = "false"
+paginate  = 18
+disableHugoGeneratorInject = true
+
+[params]
+ava = "/img/Profile.jpg"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
